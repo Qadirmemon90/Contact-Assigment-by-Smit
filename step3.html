@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Review </title>
+
+    <style>
+        .td2 {
+            background-color: #5a98e9;
+            padding: 10px 20px;
+            color: #fff;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .td1 {
+            background-color: #5d9c22;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+        }
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <table>
+            <tr>
+                <td class="td1"><a href="./step1.html">Step 1: Account</a></td>
+                <td class="td1"><a href="./step2.html">Step 2: Personal Details</a></td>
+                <td class="td2"><a href="./step3.html">Step 3: Your Review</a></td>
+            </tr>
+        </table>
+        <br>
+
+    </center>
+    <fieldset>
+
+        <legend>Your Review:</legend>
+        <form>
+            <label for="opt">How did you hear about us?</label>
+            <select name="option" id="opt">
+                <option value="TV Advertisement">TV Advertisement</option>
+                <option value="Event or Expo">Event or Expo</option>
+                <option value="Blog or Article">Blog or Article</option>
+            </select>
+            <br><br>
+            <label>Would you visit again?</label><br>
+            <input type="radio" name="visit" id="yes" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="visit" id="no" value="no">
+            <label for="no">No</label>
+            <input type="radio" name="visit" id="maybe" value="maybe">
+            <label for="maybe">Maybe</label>
+            <br>
+            <br>
+            <label for="comment">Comments:</label><br>
+            <textarea name="comment" id="comment"></textarea><br><br>
+
+            <label for="docs">Documents:</label><br>
+            <input type="file" name="docs" id="docs">
+            <br><br>
+            <input type="checkbox" name="check" id="check" value="i am agree" >
+            <label for="check">Sign me up for email updates.</label>
+
+            <br>
+            <br>
+            <a href="./step2.html"> <img src="./assets/back.png" width="100" alt=""></a>
+            <a href="./index.html"> <img src="./assets/submit.png" width="100" alt=""></a>
+        </form>
+    </fieldset>
+
+</body>
+
+</html>
